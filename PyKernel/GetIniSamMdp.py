@@ -15,7 +15,7 @@ def write_mdp(T):
         elif l[0] == 'ref_t':
             f1.write(f'ref_t    =   {T}\n')
         elif l[0] == 'Pcoupl':
-            f1.write('Pcoupl    = no')
+            f1.write('Pcoupl    = no\n')
         else:
             f1.write(line)
     return 0

@@ -13,8 +13,8 @@ nstenergy = 500
 nstxout-compressed = 100000
 compressed-x-grps  = system
 ;
-annealing = no;single
-annealing_npoints = 8
+annealing = single
+annealing_npoints = 2
 annealing_time = 0 1000 6000 11000 12000 17000 18000 23000;50000 60000
 annealing_temp = 1800 1000 1000 1000 900 900 800 800
 ;

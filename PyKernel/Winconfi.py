@@ -51,8 +51,8 @@ def Run_out(T,n):
                 f2.write(line)
             elif l[0] == 'nstxout-compressed':
                 if n < 2:
-                    f1.write(line)
-                    f2.write(line)
+                    f1.write('nstxout-compressed     = 500\n')
+                    f2.write('nstxout-compressed     = 500\n')
                 elif n == 2.5 :
                     f1.write('nstxout-compressed     = 5000\n')
                     f2.write('nstxout-compressed     = 5000\n')

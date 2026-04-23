@@ -16,6 +16,8 @@ def write_mdp(T):
             f1.write(f'ref_t    =   {T}\n')
         elif l[0] == 'pcoupl':
             f1.write(line)
+        elif l[0] == 'nstxout-compressed':
+            f1.write('nstxout-compressed     = 500\n')
         else:
             f1.write(line)
     return 0

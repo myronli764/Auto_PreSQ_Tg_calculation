@@ -10,7 +10,7 @@ nstvout = 0
 nstfout = 0
 nstlog  = 1000
 nstenergy = 500
-nstxout-compressed = 100000
+nstxout-compressed = 500
 compressed-x-grps  = system
 ;
 annealing = single

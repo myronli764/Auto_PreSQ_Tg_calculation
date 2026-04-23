@@ -17,6 +17,8 @@ def Temdown(Tini,Tend,n):
             f.write(f"annealing_temp = {Tini} {Tend}\n")
         elif l[0] == 'ref_t':
             f.write(f"ref_t    =   {Tini}\n")
+        elif l[0] == 'nstxout-compressed':
+            f1.write('nstxout-compressed     = 500\n')
         else :
             f.write(line)
     if not os.path.exists(f'windows{n}'):
